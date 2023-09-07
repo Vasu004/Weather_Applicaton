@@ -1,0 +1,91 @@
+body {
+    background: url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.search-area {
+    margin-bottom: 20px;
+}
+
+#city {
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid white;
+    background: rgba(0, 0, 0, 0.7);
+    color: #FFA500; /* Change to the desired text color, for example, orange */
+    height: 60px; /* Increase the height to make it larger */
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+#city::placeholder {
+    color: #FFA500; /* Change to the desired placeholder text color */
+    opacity: 0.7;
+}
+
+#getWeatherForecast {
+    width: 98%;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #007BFF;
+    color: white;
+    border: none;
+    transition: opacity 0.3s;
+}
+
+#getWeatherForecast:hover {
+    opacity: 0.8;
+}
+
+.weather-info {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+}
+body {
+    background-image: url("https://media.giphy.com/media/0Styincf6K2tvfjb5Q/giphy.gif"); 
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
